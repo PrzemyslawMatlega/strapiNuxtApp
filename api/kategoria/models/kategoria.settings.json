@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "kategorias",
+  "info": {
+    "name": "Kategoria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nazwa": {
+      "type": "string"
+    },
+    "artykuls": {
+      "via": "kategoria",
+      "collection": "article"
+    }
+  }
+}

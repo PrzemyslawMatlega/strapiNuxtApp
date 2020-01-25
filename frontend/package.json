@@ -1,0 +1,21 @@
+{
+  "name": "nuxtStrapiApp",
+  "version": "1.0.0",
+  "description": "My impressive Nuxt.js project",
+  "author": "PrzemyslawMatlega",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc19",
+    "core-js": "^3.6.4",
+    "graphql": "^14.5.8",
+    "nuxt": "^2.0.0",
+    "uikit": "^3.3.0"
+  },
+  "devDependencies": {}
+}

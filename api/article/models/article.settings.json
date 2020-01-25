@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "Artykul"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Tytul": {
+      "type": "string",
+      "required": true
+    },
+    "Tekst": {
+      "type": "richtext",
+      "required": true
+    },
+    "Zdjecie": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "Opublikowano": {
+      "type": "date",
+      "required": true
+    },
+    "kategoria": {
+      "model": "kategoria",
+      "via": "artykuls"
+    }
+  }
+}
