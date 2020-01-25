@@ -29,7 +29,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#fff'
+    color: '#fff' 
   },
   /*
    ** Global CSS
@@ -54,6 +54,7 @@ export default {
    */
   modules: [
     '@nuxtjs/apollo',
+    '@nuxtjs/markdownit'
   ],
   apollo: {
     clientConfigs: {
@@ -61,6 +62,12 @@ export default {
         httpEndpoint: process.env.BACKEND_URL || "http://localhost:1337/graphql"
       }
     }
+  },
+  markdownit: {  
+    preset: 'default',
+    linkify: true,
+    breaks: true,
+    injected: true
   },
   /*
    ** Build configuration

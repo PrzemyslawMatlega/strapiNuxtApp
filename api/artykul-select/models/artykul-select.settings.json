@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "artykul_selects",
+  "info": {
+    "name": "ArtykulSelect"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Tytul": {
+      "type": "string",
+      "required": true
+    },
+    "KomponentyDynamiczne": {
+      "type": "dynamiczone",
+      "components": [
+        "komponent.galeria",
+        "komponent.slajder",
+        "komponent.pole-tekstowe"
+      ]
+    }
+  }
+}

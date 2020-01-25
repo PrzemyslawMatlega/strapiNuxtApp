@@ -1,0 +1,14 @@
+{
+  "info": {
+    "name": "Pole Tekstowe",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "PoleTekstowe": {
+      "type": "richtext"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_komponent_pole_tekstowes"
+}

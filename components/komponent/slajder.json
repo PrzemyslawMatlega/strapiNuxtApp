@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Slajder",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "SlajderZdjecia": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_komponent_slajders"
+}

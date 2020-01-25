@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/artykul-selects",
+      "handler": "artykul-select.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artykul-selects/count",
+      "handler": "artykul-select.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artykul-selects/:id",
+      "handler": "artykul-select.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/artykul-selects",
+      "handler": "artykul-select.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/artykul-selects/:id",
+      "handler": "artykul-select.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/artykul-selects/:id",
+      "handler": "artykul-select.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

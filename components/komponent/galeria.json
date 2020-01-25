@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "Galeria",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Galeria": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "GaleriaTytul": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_komponent_galerias"
+}

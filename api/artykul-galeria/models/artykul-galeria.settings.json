@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "ArtykulGaleria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Tytul": {
+      "type": "string",
+      "required": true
+    },
+    "Tekst": {
+      "type": "richtext"
+    },
+    "GaleriaKomponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "komponent.galeria"
+    }
+  },
+  "connection": "default",
+  "collectionName": "artykul_galerias"
+}

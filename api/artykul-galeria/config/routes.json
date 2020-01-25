@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/artykul-galerias",
+      "handler": "artykul-galeria.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artykul-galerias/count",
+      "handler": "artykul-galeria.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artykul-galerias/:id",
+      "handler": "artykul-galeria.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/artykul-galerias",
+      "handler": "artykul-galeria.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/artykul-galerias/:id",
+      "handler": "artykul-galeria.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/artykul-galerias/:id",
+      "handler": "artykul-galeria.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
