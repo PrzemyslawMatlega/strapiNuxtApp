@@ -1,0 +1,6 @@
+query Categories {  
+    kategorias {
+    id
+    Nazwa
+  }
+}

@@ -1,0 +1,40 @@
+fragment NameParts on ComponentKomponentSlajder {
+     id
+        SlajderZdjecia{
+          url
+        }
+}
+
+# query Articles {  
+#   artykulSelects{
+#     id
+#     KomponentyDynamiczne{
+      
+#       ... on ComponentKomponentSlajder{
+#     			...NameParts
+#       }
+#       ... on ComponentKomponentPoleTekstowe{
+#         id
+#         PoleTekstowe
+#       }
+#       ... on ComponentKomponentGaleria{
+#         id
+#         GaleriaTytul
+#         Galeria{
+#           url
+#         }
+#       }
+#     }
+#   }
+# }
+
+query Articles {  
+  artykulSelects{
+    id
+    KomponentyDynamiczne{
+      ... on ComponentKomponentSlajder{
+    			...NameParts
+      }
+    }
+  }
+}

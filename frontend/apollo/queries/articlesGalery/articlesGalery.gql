@@ -1,0 +1,12 @@
+query Articles {  
+  artykulGalerias{
+    id
+    Tytul
+    GaleriaKomponent{
+      Galeria{
+        url
+      }
+      GaleriaTytul
+    }
+  }
+}
